@@ -1,0 +1,75 @@
+h1 {
+	margin-bottom: 50px;
+}
+
+#header-nav {
+	border: 2px solid black;
+	background-color: #808080;
+}
+
+.navbar-default .navbar-brand {
+	color: #000000;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+.navbar-header {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#nav-list {
+	background-color: #ffffff;
+}
+
+#nav-list a {
+  border: 1px solid black;
+  margin: 0x;
+  color: #000000;
+}
+
+#nav-list.navbar-nav {
+	margin: 0px -15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+
+#header-container {
+	margin: 0px;
+	padding: 0px;
+}
+
+#collapsable-nav {
+    margin: 0px;
+}
+
+.main-container {
+	height: 1500px;
+	margin: 20px;
+}
+
+.main-container .main-container-section {
+	background-color: #808080;
+	font-weight: bold;
+}
+
+.main-container .main-container-heading {
+	background-color: #808080;
+	font-weight: bold;
+}
+
+.main-container .main-container-content {
+	padding: 25px;
+}
+
+@media (max-width: 767px) {
+
+	.main-container .main-container-section {
+		margin-right: 40px;
+		margin-left: 40px;
+        margin-bottom: 40px;
+	}
+
+}
